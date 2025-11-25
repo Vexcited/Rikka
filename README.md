@@ -23,7 +23,7 @@ You simply add the dependency to your `Package.swift` file.
 Package(
   dependencies: [
     // You must add the following line.
-    .package(url: "https://github.com/Vexcited/Rikka.git", from: "0.0.0"),
+    .package(url: "https://github.com/Vexcited/Rikka.git", from: "0.1.0"),
   ],
   targets: [
     .target(name: "YourTarget", dependencies: ["Rikka"]),
